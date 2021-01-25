@@ -7,7 +7,6 @@
   "author": "Gal Kahana <gal.kahana@hotmail.com>",
   "main": "./hummus.js",
   "scripts": {
-    "postinstall": "node-pre-gyp install --fallback-to-build $EXTRA_NODE_PRE_GYP_FLAGS",
     "test": "mocha -R tap ./tests/*.js --timeout 15000"
   },
   "repository": {
