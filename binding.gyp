@@ -65,13 +65,13 @@
 		{
 			'target_name': 'action_after_build',
 			'type': 'none',
-			'dependencies': [ '<(module_name)' ],
+			'dependencies': [ 'hummus' ],
 			'copies': [
 				{
 					'files': [
 						'<(PRODUCT_DIR)/hummus.node'
 					],
-					'destination': '<(module_path)'
+					'destination': './binding'
 				}
 			]
 		}
